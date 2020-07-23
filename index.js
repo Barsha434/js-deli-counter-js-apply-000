@@ -6,7 +6,7 @@ function takeANumber(Line,Person){
   }
 function nowServing(Line){
   if(Line.length>0){
-   Line.unshift()
+   Line.shift()
  return `Currently serving ${Line}`
  }
   else if(Line.length===0){
